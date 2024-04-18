@@ -1,6 +1,10 @@
+-- Creation of Database
 create database virtual_art_gallery;
+
+--Using the database
 use virtual_art_gallery;
 
+-- Creation of Artist table
 CREATE TABLE Artist (
     ArtistID INT PRIMARY KEY,
     Name VARCHAR(50),
@@ -172,6 +176,5 @@ VALUES
 (513, 603),
 (514, 604),
 (515, 605);
-Select * from artwork where artistid=106;
 
 
